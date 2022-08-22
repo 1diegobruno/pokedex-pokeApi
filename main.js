@@ -64,8 +64,8 @@ function createPokemon(pokemon) {
   name.textContent = pokemon.name;
 
   card.appendChild(spriteContainer);
-  card.appendChild(number);
   card.appendChild(name);
+  card.appendChild(number);
 
   const cardBack = document.createElement("div");
   cardBack.classList.add("pokemon-block-back");
@@ -84,7 +84,7 @@ function progressBars(stats) {
   for (let i = 0; i < 3; i++) {
     const stat = stats[i];
 
-    const statPercent = stat.base_stat / 2 + "%";
+    const statPercent = stat.base_stat / 1 + "%";
     const statContainer = document.createElement("stat-container");
     statContainer.classList.add("stat-container");
 
