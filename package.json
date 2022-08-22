@@ -1,0 +1,29 @@
+{
+  "name": "pokedex",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "dependencies": {
+    "js-tokens": "^4.0.0",
+    "loose-envify": "^1.4.0",
+    "react": "^16.14.0",
+    "prop-types": "^15.8.1",
+    "react-particles-js": "^2.4.0",
+    "object-assign": "^4.1.1",
+    "react-is": "^16.13.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/1diegobruno/pokedex-pokeApi.git"
+  },
+  "author": "Diego Bruno",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/1diegobruno/pokedex-pokeApi/issues"
+  },
+  "homepage": "https://github.com/1diegobruno/pokedex-pokeApi#readme"
+}
